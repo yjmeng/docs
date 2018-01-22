@@ -5,15 +5,15 @@
 3. go to azkaban folder(cd azkaban) and run command: ./gradlew build installDist
 
 <H2> Install mysql server</H2>
-1. run command to check if the mysql-server has already been installed 
-$ps -Af | grep mysqld
+1. run command to check if the mysql-server has already been installed <br/>
+$ps -Af | grep mysqld<br/>
 <br/>
 2. install mysql by below command:
-step1 - installing mysql
-$sudo apt-get update
-$sudo apt-get install mysql-server
+step1 - installing mysql<br/>
+$sudo apt-get update<br/>
+$sudo apt-get install mysql-server<br/>
 
-step2 - configure mysql
+step2 - configure mysql<br/>
 $mysql_secure_installation
 
 step3 - testing mysql
