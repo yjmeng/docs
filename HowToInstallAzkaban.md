@@ -20,7 +20,7 @@ step3 - testing mysql<br/>
 $systemctl status mysql.service<br/>
 <br/>
 3. create database and tables for azkaban<br/>
-run below command:<br/>
+>> run below command:<br/>
 $mysql -u root -p<br/>
 $CREATE DATABASE IF NOT EXISTS azkaban;<br/>
 $create user 'azkaban'@'localhost' IDENTIFIED BY ‘password’;<br/>
